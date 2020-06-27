@@ -28,5 +28,5 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: run Surge
-      run: surge ./ 4IRU-BC-002.surge.sh --token ${{secret.surge_token}}
+      run: surge ./ 4IRU-BC-002.surge.sh --token ${{secrets.surge_token}}
       
